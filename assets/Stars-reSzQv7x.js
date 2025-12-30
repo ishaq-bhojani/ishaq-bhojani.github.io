@@ -1,4 +1,4 @@
-import{r as e}from"./index-CG1QRBzN.js";import{p as y,u as A,A as w,V as x,S as C,k as z,v as E}from"./constants-4GySReMG.js";class P extends z{constructor(){super({uniforms:{time:{value:0},fade:{value:1}},vertexShader:`
+import{r as e}from"./index-CbbZoF66.js";import{p as y,u as A,A as w,V as x,S as C,k as z,v as E}from"./constants-BIhEQVLh.js";class P extends z{constructor(){super({uniforms:{time:{value:0},fade:{value:1}},vertexShader:`
       uniform float time;
       attribute float size;
       varying vec3 vColor;

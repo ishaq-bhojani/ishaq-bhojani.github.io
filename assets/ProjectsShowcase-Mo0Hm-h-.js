@@ -1,4 +1,4 @@
-import{r as b,u as c,j as e,m as i,A as p}from"./index-CG1QRBzN.js";function h(){return e.jsxs("div",{className:"absolute inset-0 overflow-hidden pointer-events-none",children:[[...Array(50)].map((a,s)=>e.jsx("div",{className:"absolute w-1 h-1 bg-cyan-500/30 rounded-full",style:{left:`${Math.random()*100}%`,top:`${Math.random()*100}%`,animation:`float ${5+Math.random()*10}s ease-in-out infinite`,animationDelay:`${Math.random()*5}s`}},s)),e.jsx("style",{children:`
+import{r as b,u as c,j as e,m as i,A as p}from"./index-CbbZoF66.js";function h(){return e.jsxs("div",{className:"absolute inset-0 overflow-hidden pointer-events-none",children:[[...Array(50)].map((a,s)=>e.jsx("div",{className:"absolute w-1 h-1 bg-cyan-500/30 rounded-full",style:{left:`${Math.random()*100}%`,top:`${Math.random()*100}%`,animation:`float ${5+Math.random()*10}s ease-in-out infinite`,animationDelay:`${Math.random()*5}s`}},s)),e.jsx("style",{children:`
         @keyframes float {
           0%, 100% { transform: translateY(0) translateX(0); opacity: 0.3; }
           50% { transform: translateY(-20px) translateX(10px); opacity: 0.8; }
