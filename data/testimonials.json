@@ -1,0 +1,34 @@
+[
+  {
+    "name": "Qadir Hussain",
+    "role": "Senior Software Engineer",
+    "company": "Lebijou",
+    "text": "I had the privilege of working with Ishaq Bhojani on the same team at Lebijou, and I can confidently say he is an exceptional JavaScript Guru. Ishaq's deep passion for coding and his expertise in leading technical projects were instrumental in driving our team's success. His ability to break down complex problems and guide the team toward effective solutions is remarkable. Beyond his technical skills, Ishaq is also a dedicated teacher and trainer, always eager to share his knowledge and help others grow. His enthusiasm for technology is contagious, making him a true asset to any team. I highly recommend Ishaq for leadership and a professional coder.",
+    "relationship": "Worked on same team",
+    "date": "August 30, 2024"
+  },
+  {
+    "name": "Khurram Ahmed",
+    "role": "Senior Technical Lead Consultant",
+    "company": "EnDemand IT",
+    "text": "Ishaq worked with me on few projects for our e-commerce client in USA. I found him very responsible towards his delivery tasks and he always comes with new innovative ideas especially for UI design and its implementation through angularJS or reactJS technologies. He was one of few people in my team who established his place as star performer. I wish him best of luck.",
+    "relationship": "Line Manager",
+    "date": "March 19, 2022"
+  },
+  {
+    "name": "Rehan Sattar",
+    "role": "Senior Software Engineer @Metal (YC)",
+    "company": "Metal",
+    "text": "I have been with Ishaq from an year now and I must say, He is an exceptional resource to the team both in technical aspects as well as the team management. Also he is a great mentor for new engineers and also put a lot of efforts in training them to be good Software Engineers.",
+    "relationship": "Worked on same team",
+    "date": "February 5, 2022"
+  },
+  {
+    "name": "Mir Saif Uddin Wasif",
+    "role": "Development Manager / Software Architect",
+    "company": "Temenos",
+    "text": "In one line if I have to explain him is simply said that Ishaq Bhojani is a JavaScript guru. Any library any framework any thing in JavaScript when it comes to him he is master of it. Whether it is MongoDB, AngularJS, Node.js, React, Ionic or React native. He is a master of all. Highly recommended from my side for JavaScript world.",
+    "relationship": "Worked on different teams",
+    "date": "May 26, 2017"
+  }
+]
