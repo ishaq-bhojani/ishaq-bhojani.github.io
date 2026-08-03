@@ -12,7 +12,12 @@
     <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
     <link rel="shortcut icon" href="/favicon.ico" />
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
-    <link rel="manifest" href="/site.webmanifest" />
+    <!-- The manifest link is injected by vite-plugin-pwa. A hardcoded one here
+         won and shadowed it, so the browser read a manifest with no start_url
+         or scope and the install prompt never qualified. -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="Ishaq Bhojani" />
     
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website" />
@@ -27,9 +32,9 @@
     <meta property="twitter:title" content="Ishaq Bhojani — Tech Lead &amp; Frontend Architect" />
     <meta property="twitter:description" content="I design the architecture, then lead the team that ships it. Twelve years, fourteen products in production." />
     <meta property="twitter:image" content="https://ishaq-bhojani.github.io/avatar.png?v=1" />
-    <script type="module" crossorigin src="/assets/index-Cd6t8nPz.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-C_cK0KTy.css">
-  </head>
+    <script type="module" crossorigin src="/assets/index-BQ4uauwR.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-BP2oJK9L.css">
+  <link rel="manifest" href="/manifest.webmanifest"><script id="vite-plugin-pwa:register-sw" src="/registerSW.js"></script></head>
   <body>
     <div id="root"></div>
   </body>
