@@ -1,1 +1,0 @@
-import{r as n}from"./index-DVuNU5VI.js";const o="(max-width: 767px)";function r(){const[i,s]=n.useState(()=>typeof window<"u"&&window.matchMedia(o).matches);return n.useEffect(()=>{if(typeof window>"u")return;const e=window.matchMedia(o),t=()=>s(e.matches);return t(),e.addEventListener("change",t),()=>e.removeEventListener("change",t)},[]),i}export{r as u};
