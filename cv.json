@@ -1,0 +1,375 @@
+{
+  "schema": 1,
+  "profile": {
+    "name": "Ishaq Bhojani",
+    "title": "Software Architect · Team Lead",
+    "location": "Karachi",
+    "summary": "I design the architecture, then lead the team that ships it. Twelve years, twenty-three products, and a team of five I lead today.",
+    "since": "2014"
+  },
+  "contact": {
+    "email": "ishaqbhojani@gmail.com",
+    "linkedin": "/in/ishaqbhojani",
+    "github": "/ishaq-bhojani",
+    "youtube": "@IshaqBhojani"
+  },
+  "roles": [
+    {
+      "id": "logixalab-architect",
+      "role": "Software Architect",
+      "company": "LogixaLab",
+      "dates": "JUN 2026 — PRESENT"
+    },
+    {
+      "id": "qds-senior-frontend",
+      "role": "Senior Frontend Developer",
+      "company": "QDS",
+      "dates": "AUG 2025 — MAR 2026"
+    },
+    {
+      "id": "alreadyon-tech-lead",
+      "role": "Tech Lead",
+      "company": "Already On",
+      "dates": "JUL 2024 — AUG 2025"
+    },
+    {
+      "id": "nisum-tech-lead",
+      "role": "Tech Lead",
+      "company": "Nisum",
+      "dates": "APR 2023 — JUL 2024"
+    },
+    {
+      "id": "nisum-principal",
+      "role": "Principal Software Engineer",
+      "company": "Nisum",
+      "dates": "APR 2021 — MAR 2023"
+    },
+    {
+      "id": "genetech-senior",
+      "role": "Senior Software Engineer",
+      "company": "Genetech Solutions",
+      "dates": "SEP 2016 — APR 2021"
+    },
+    {
+      "id": "malikans-engineer",
+      "role": "Software Engineer",
+      "company": "Malikans Pvt. Ltd",
+      "dates": "JAN 2015 — SEP 2016"
+    },
+    {
+      "id": "panacloud-junior",
+      "role": "Jr. Software Developer",
+      "company": "Panacloud Pvt. Ltd",
+      "dates": "MAY 2014 — DEC 2014"
+    },
+    {
+      "id": "panacloud-intern",
+      "role": "Internship",
+      "company": "Panacloud Pvt. Ltd",
+      "dates": "FEB 2014 — MAY 2014"
+    }
+  ],
+  "capability": [
+    {
+      "group": "LANGUAGES",
+      "items": [
+        {
+          "name": "JavaScript",
+          "years": 10
+        },
+        {
+          "name": "TypeScript",
+          "years": 6
+        },
+        {
+          "name": "HTML / CSS",
+          "years": 10
+        },
+        {
+          "name": "SCSS",
+          "years": 7
+        },
+        {
+          "name": "Python",
+          "years": 2
+        }
+      ]
+    },
+    {
+      "group": "FRONTEND",
+      "items": [
+        {
+          "name": "Angular",
+          "years": 8
+        },
+        {
+          "name": "React",
+          "years": 7
+        },
+        {
+          "name": "Redux / NGRX",
+          "years": 6
+        },
+        {
+          "name": "RxJS",
+          "years": 5
+        },
+        {
+          "name": "Vue · Next.js",
+          "years": 3
+        },
+        {
+          "name": "Flutter · Dart",
+          "years": 1
+        }
+      ]
+    },
+    {
+      "group": "ARCHITECTURE",
+      "items": [
+        {
+          "name": "Design patterns",
+          "years": 7
+        },
+        {
+          "name": "System design",
+          "years": 5
+        },
+        {
+          "name": "Microservices",
+          "years": 4
+        },
+        {
+          "name": "Micro-frontend",
+          "years": 3
+        }
+      ]
+    },
+    {
+      "group": "SERVICES",
+      "items": [
+        {
+          "name": "Node.js",
+          "years": 8
+        },
+        {
+          "name": "Express",
+          "years": 8
+        },
+        {
+          "name": "REST APIs",
+          "years": 8
+        },
+        {
+          "name": "NestJS",
+          "years": 3
+        },
+        {
+          "name": "GraphQL",
+          "years": 2
+        },
+        {
+          "name": "Fastify · FastAPI",
+          "years": 1
+        }
+      ]
+    },
+    {
+      "group": "DATA",
+      "items": [
+        {
+          "name": "MongoDB",
+          "years": 7
+        },
+        {
+          "name": "MySQL",
+          "years": 5
+        },
+        {
+          "name": "PostgreSQL",
+          "years": 4
+        },
+        {
+          "name": "Prisma / TypeORM",
+          "years": 3
+        },
+        {
+          "name": "Redis",
+          "years": 3
+        }
+      ]
+    },
+    {
+      "group": "INFRA + LEADERSHIP",
+      "items": [
+        {
+          "name": "Git / CI-CD",
+          "years": 10
+        },
+        {
+          "name": "Agile / Scrum",
+          "years": 8
+        },
+        {
+          "name": "Linux / Bash",
+          "years": 6
+        },
+        {
+          "name": "Mentoring",
+          "years": 5
+        },
+        {
+          "name": "Docker / AWS",
+          "years": 4
+        },
+        {
+          "name": "Electron",
+          "years": 1
+        }
+      ]
+    }
+  ],
+  "education": [
+    {
+      "title": "MEAN Stack Certification",
+      "institution": "Saylani Welfare International Trust",
+      "year": "2014"
+    },
+    {
+      "title": "Intermediate",
+      "institution": "Board of Intermediate Education Karachi",
+      "year": "2012"
+    }
+  ],
+  "certificates": [
+    {
+      "name": "ReactJS — The Complete Guide",
+      "issuer": "UDEMY",
+      "link": "https://www.udemy.com/certificate/UC-afc47ed6-a553-452a-96bd-561d163f2551/"
+    },
+    {
+      "name": "TypeScript — The Complete Guide",
+      "issuer": "UDEMY",
+      "link": "https://www.udemy.com/certificate/UC-ed498320-7714-4e8f-8ac2-d90b72d255de/"
+    },
+    {
+      "name": "NodeJS — The Complete Guide",
+      "issuer": "UDEMY",
+      "link": "https://www.udemy.com/certificate/UC-6ca482a9-9c67-4320-9895-7c0516bbcdb1/"
+    },
+    {
+      "name": "JavaScript — The Complete Guide",
+      "issuer": "UDEMY",
+      "link": "https://www.udemy.com/certificate/UC-6609dce0-2ccb-4d47-84bc-fc48a5688aa7/"
+    },
+    {
+      "name": "JavaScript (Intermediate)",
+      "issuer": "HACKERRANK",
+      "link": "https://www.hackerrank.com/certificates/cdc7fa249b3d"
+    },
+    {
+      "name": "Problem Solving Skills",
+      "issuer": "HACKERRANK",
+      "link": "https://www.hackerrank.com/certificates/56ac0284b86f"
+    }
+  ],
+  "products": [
+    {
+      "name": "Modelith",
+      "status": "LIVE"
+    },
+    {
+      "name": "LogiTrax",
+      "status": "IN BUILD"
+    },
+    {
+      "name": "DHA City Medical Center",
+      "status": "IN BUILD"
+    },
+    {
+      "name": "Athleon Arena",
+      "status": "IN BUILD"
+    },
+    {
+      "name": "FHU Resorts",
+      "status": "IN BUILD"
+    },
+    {
+      "name": "Chelooms",
+      "status": "IN BUILD"
+    },
+    {
+      "name": "PlanKaro",
+      "status": "IN BUILD"
+    },
+    {
+      "name": "Shikaku",
+      "status": "COMING SOON"
+    },
+    {
+      "name": "Arrows",
+      "status": "COMING SOON"
+    },
+    {
+      "name": "AO Skills",
+      "status": "LIVE"
+    },
+    {
+      "name": "AO LMS",
+      "status": "LIVE"
+    },
+    {
+      "name": "ECOM MFE",
+      "status": "LIVE"
+    },
+    {
+      "name": "PMO Tracker",
+      "status": "LIVE"
+    },
+    {
+      "name": "NPM Project Check",
+      "status": "LIVE"
+    },
+    {
+      "name": "UI Template Generator",
+      "status": "LIVE"
+    },
+    {
+      "name": "Recommendations Admin",
+      "status": "LIVE"
+    },
+    {
+      "name": "Customer Admin",
+      "status": "LIVE"
+    },
+    {
+      "name": "Le Bijou",
+      "status": "LIVE"
+    },
+    {
+      "name": "Matterz",
+      "status": "LIVE"
+    },
+    {
+      "name": "Team Reporter",
+      "status": "LIVE"
+    },
+    {
+      "name": "Islamic Mode",
+      "status": "LIVE"
+    },
+    {
+      "name": "Daily Momin",
+      "status": "LIVE"
+    },
+    {
+      "name": "AL Hajj",
+      "status": "LIVE"
+    }
+  ],
+  "teaching": {
+    "handle": "@IshaqBhojani",
+    "href": "https://www.youtube.com/@IshaqBhojani",
+    "playlists": 21
+  }
+}
