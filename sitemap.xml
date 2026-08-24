@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- One entry on purpose: the case studies live at #/case/<slug>, and a
+     fragment is not a distinct URL to a crawler, so listing them here
+     would be faking pages that do not resolve separately. llms.txt and
+     the JSON-LD in index.html are where those routes are enumerated. -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://ishaq-bhojani.github.io/</loc>
+  </url>
+</urlset>

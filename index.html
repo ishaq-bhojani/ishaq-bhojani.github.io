@@ -5,6 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
     <title>Ishaq Bhojani — Software Architect &amp; Team Lead</title>
     <meta name="description" content="Software Architect and team lead in Karachi. Twelve years, twenty-three products, and a team of five I lead today." />
+
+    <!-- Google Search Console ownership proof for the URL-prefix property
+         https://ishaq-bhojani.github.io/. Load-bearing, and not obviously so:
+         removing it un-verifies the property, which silently stops sitemap
+         submission and indexing requests from working — nothing on the site
+         breaks, indexing just quietly stops.
+
+         It has to be a meta tag. Search Console's other method, a DNS TXT
+         record, is impossible here: that requires control of the `github.io`
+         zone, and GitHub owns that, not us. There is no DNS provider to sign
+         into, so this tag is the only proof of ownership available.
+
+         Public by design — it is meant to be read off the page. Not a secret,
+         and not something to move into an env var. `src/__tests__/geo.test.ts`
+         pins the exact token. -->
+    <meta name="google-site-verification" content="qd-4chkGJbCnFN_W-MbgoPJznw9T6IDSlhLPNrr_T9Y" />
     <!-- Both themes declared, so the browser chrome matches whichever is live
          before any script runs. The inline script below overrides this to the
          stored choice when the visitor has made one. -->
@@ -70,8 +86,210 @@
     <script type="module" crossorigin src="/assets/index-DNlDzxQl.js"></script>
     <link rel="modulepreload" crossorigin href="/assets/vendor-BW2mufTb.js">
     <link rel="stylesheet" crossorigin href="/assets/index-tDT1VLIj.css">
+    <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://ishaq-bhojani.github.io/#person",
+      "name": "Ishaq Bhojani",
+      "jobTitle": "Software Architect · Team Lead",
+      "description": "I design the architecture, then lead the team that ships it. Twelve years, twenty-three products, and a team of five I lead today.",
+      "url": "https://ishaq-bhojani.github.io/",
+      "email": "mailto:ishaqbhojani@gmail.com",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Karachi",
+        "addressCountry": "Pakistan"
+      },
+      "sameAs": [
+        "https://www.linkedin.com/in/ishaqbhojani/",
+        "https://github.com/ishaq-bhojani",
+        "https://www.youtube.com/@IshaqBhojani"
+      ],
+      "knowsAbout": [
+        "JavaScript",
+        "TypeScript",
+        "HTML / CSS",
+        "SCSS",
+        "Python",
+        "Angular",
+        "React",
+        "Redux / NGRX",
+        "RxJS",
+        "Vue · Next.js",
+        "Flutter · Dart",
+        "Design patterns",
+        "System design",
+        "Microservices",
+        "Micro-frontend",
+        "Node.js",
+        "Express",
+        "REST APIs",
+        "NestJS",
+        "GraphQL",
+        "Fastify · FastAPI",
+        "MongoDB",
+        "MySQL",
+        "PostgreSQL",
+        "Prisma / TypeORM",
+        "Redis",
+        "Git / CI-CD",
+        "Agile / Scrum",
+        "Linux / Bash",
+        "Mentoring",
+        "Docker / AWS",
+        "Electron"
+      ],
+      "worksFor": {
+        "@type": "Organization",
+        "name": "LogixaLab"
+      }
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://ishaq-bhojani.github.io/#website",
+      "url": "https://ishaq-bhojani.github.io/",
+      "name": "Ishaq Bhojani — Software Architect · Team Lead",
+      "publisher": {
+        "@id": "https://ishaq-bhojani.github.io/#person"
+      }
+    },
+    {
+      "@type": "ProfilePage",
+      "@id": "https://ishaq-bhojani.github.io/#profilepage",
+      "url": "https://ishaq-bhojani.github.io/",
+      "name": "Ishaq Bhojani — Software Architect · Team Lead",
+      "isPartOf": {
+        "@id": "https://ishaq-bhojani.github.io/#website"
+      },
+      "mainEntity": {
+        "@id": "https://ishaq-bhojani.github.io/#person"
+      }
+    },
+    {
+      "@type": "ItemList",
+      "@id": "https://ishaq-bhojani.github.io/#case-studies",
+      "name": "Four systems, drawn",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "item": {
+            "@type": "CreativeWork",
+            "name": "An agent desktop where every privileged action is gated",
+            "url": "https://ishaq-bhojani.github.io/#/case/agent-desktop",
+            "abstract": "Agent tooling is welded to one vendor and lives inside an IDE or a terminal. Switching to a local model means switching tools — and any app that holds your API key while editing files and running commands is asking for trust it has not earned.",
+            "author": {
+              "@id": "https://ishaq-bhojani.github.io/#person"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "item": {
+            "@type": "CreativeWork",
+            "name": "An AI job-generation platform, architected from nothing",
+            "url": "https://ishaq-bhojani.github.io/#/case/ai-platform",
+            "abstract": "A new AI product with no existing system to build on, needing secure multi-tenant identity and heavy file handling from day one — on a timeline that left no room to rebuild the foundation later.",
+            "author": {
+              "@id": "https://ishaq-bhojani.github.io/#person"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "item": {
+            "@type": "CreativeWork",
+            "name": "A learning platform carrying two live products",
+            "url": "https://ishaq-bhojani.github.io/#/case/learning-platform",
+            "abstract": "An LMS and an on-demand services app both had to run as real products, with search, media and notifications that could not block a user request — built by a team spread across several time zones.",
+            "author": {
+              "@id": "https://ishaq-bhojani.github.io/#person"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "item": {
+            "@type": "CreativeWork",
+            "name": "One monolith, split into modules teams could ship alone",
+            "url": "https://ishaq-bhojani.github.io/#/case/micro-frontend",
+            "abstract": "A high-traffic e-commerce front end where every change — however small — meant redeploying the entire application, and every team waited on every other team to be ready.",
+            "author": {
+              "@id": "https://ishaq-bhojani.github.io/#person"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}</script>
   <link rel="manifest" href="/manifest.webmanifest"><script id="vite-plugin-pwa:register-sw" src="/registerSW.js"></script></head>
   <body>
     <div id="root"></div>
+    <noscript><h1>Ishaq Bhojani</h1>
+<p>SOFTWARE ARCHITECT · TEAM LEAD · KARACHI</p>
+<p>I draw the system first, then lead the team that builds it.</p>
+<p>I design the architecture, then lead the team that ships it. Twelve years, twenty-three products, and a team of five I lead today.</p>
+<p>Open to lead and architect roles. Remote, or relocation · Two months’ notice · Visa sponsorship required.</p>
+<h2>Four systems, drawn</h2>
+<p>The first one is open source, so you can read every decision in the source. The other three are under NDA, so there are no screenshots — what I can show is the decision: the problem, the architecture I chose, and what it bought the team.</p>
+<ul>
+<li><a href="https://ishaq-bhojani.github.io/#/case/agent-desktop">An agent desktop where every privileged action is gated</a> — Agent tooling is welded to one vendor and lives inside an IDE or a terminal. Switching to a local model means switching tools — and any app that holds your API key while editing files and running commands is asking for trust it has not earned.</li>
+<li><a href="https://ishaq-bhojani.github.io/#/case/ai-platform">An AI job-generation platform, architected from nothing</a> — A new AI product with no existing system to build on, needing secure multi-tenant identity and heavy file handling from day one — on a timeline that left no room to rebuild the foundation later.</li>
+<li><a href="https://ishaq-bhojani.github.io/#/case/learning-platform">A learning platform carrying two live products</a> — An LMS and an on-demand services app both had to run as real products, with search, media and notifications that could not block a user request — built by a team spread across several time zones.</li>
+<li><a href="https://ishaq-bhojani.github.io/#/case/micro-frontend">One monolith, split into modules teams could ship alone</a> — A high-traffic e-commerce front end where every change — however small — meant redeploying the entire application, and every team waited on every other team to be ready.</li>
+</ul>
+<h2>Twenty-three products, one table</h2>
+<ul>
+<li><a href="https://github.com/ishaq-bhojani/Modelith">Modelith</a> (LIVE) — Open-source AI agent desktop, any provider, every action gated</li>
+<li>LogiTrax (IN BUILD) — Fleet tracking on commercial GPS hardware, with Urdu/RTL support</li>
+<li>DHA City Medical Center (IN BUILD) — Hospital management: registration, pharmacy, batch inventory</li>
+<li>Athleon Arena (IN BUILD) — Sports venue booking, payments and event-sourced live scoring</li>
+<li><a href="https://www.fhuresorts.com/">FHU Resorts</a> (LIVE) — Resort marketing and booking site, scroll-choreographed</li>
+<li>Chelooms (IN BUILD) — Marketplace platform, under wraps until launch</li>
+<li>PlanKaro (IN BUILD) — Consumer discovery app, under wraps until launch</li>
+<li>Shikaku (COMING SOON) — Offline logic-puzzle game, minimalist by design</li>
+<li>Arrows (COMING SOON) — Puzzle escape game, three mechanics prototyped</li>
+<li>AO Skills (LIVE) — AI-based job generation, front end and back end</li>
+<li>AO LMS (LIVE) — Learning management system, front end and back end</li>
+<li>ECOM MFE (LIVE) — Micro-frontend modules for an e-commerce site</li>
+<li>PMO Tracker (LIVE) — Jira/Trello-like project and resource management</li>
+<li>NPM Project Check (LIVE) — Plugin validating dependencies against a config</li>
+<li>UI Template Generator (LIVE) — Generates whole projects from user input</li>
+<li>Recommendations Admin (LIVE) — Admin panel configuring an ML server</li>
+<li>Customer Admin (LIVE) — Admin panel for call-centre users</li>
+<li>Le Bijou (LIVE) — Automated hotel and booking management</li>
+<li>Matterz (LIVE) — Property lawyers managing clients, deals, escrow</li>
+<li>Team Reporter (LIVE) — Employers viewing activity, distributing instructions</li>
+<li>Islamic Mode (LIVE) — Religious activity app, iOS and Android</li>
+<li>Daily Momin (LIVE) — Checklist app for tracking religious activities</li>
+<li>AL Hajj (LIVE) — Step-by-step guide app for pilgrims</li>
+</ul>
+<h2>Depth, not a star rating</h2>
+<ul>
+<li>LANGUAGES: JavaScript — 10y, TypeScript — 6y, HTML / CSS — 10y, SCSS — 7y, Python — 2y</li>
+<li>FRONTEND: Angular — 8y, React — 7y, Redux / NGRX — 6y, RxJS — 5y, Vue · Next.js — 3y, Flutter · Dart — 1y</li>
+<li>ARCHITECTURE: Design patterns — 7y, System design — 5y, Microservices — 4y, Micro-frontend — 3y</li>
+<li>SERVICES: Node.js — 8y, Express — 8y, REST APIs — 8y, NestJS — 3y, GraphQL — 2y, Fastify · FastAPI — 1y</li>
+<li>DATA: MongoDB — 7y, MySQL — 5y, PostgreSQL — 4y, Prisma / TypeORM — 3y, Redis — 3y</li>
+<li>INFRA + LEADERSHIP: Git / CI-CD — 10y, Agile / Scrum — 8y, Linux / Bash — 6y, Mentoring — 5y, Docker / AWS — 4y, Electron — 1y</li>
+</ul>
+<h2>Open to lead and architect roles.</h2>
+<ul>
+<li>EMAIL: <a href="mailto:ishaqbhojani@gmail.com">ishaqbhojani@gmail.com</a></li>
+<li>LINKEDIN: <a href="https://www.linkedin.com/in/ishaqbhojani/">/in/ishaqbhojani</a></li>
+<li>GITHUB: <a href="https://github.com/ishaq-bhojani">/ishaq-bhojani</a></li>
+<li>YOUTUBE: <a href="https://www.youtube.com/@IshaqBhojani">@IshaqBhojani</a></li>
+</ul>
+<ul>
+<li>LOCATION: Karachi, Pakistan. Remote by default, and open to relocating for the right role.</li>
+<li>NOTICE: Two months from signing.</li>
+<li>WORK AUTHORISATION: Pakistani national — a role outside Pakistan would need visa sponsorship.</li>
+</ul></noscript>
   </body>
 </html>

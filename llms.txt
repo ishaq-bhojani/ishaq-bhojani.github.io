@@ -1,0 +1,56 @@
+# Ishaq Bhojani — Software Architect · Team Lead
+
+> I design the architecture, then lead the team that ships it. Twelve years, twenty-three products, and a team of five I lead today.
+
+I draw the system first, then lead the team that builds it. Open to lead and architect roles — Karachi, Pakistan. Remote by default, and open to relocating for the right role.
+
+## Case studies
+
+- [An agent desktop where every privileged action is gated](https://ishaq-bhojani.github.io/#/case/agent-desktop): Agent tooling is welded to one vendor and lives inside an IDE or a terminal. Switching to a local model means switching tools — and any app that holds your API key while editing files and running commands is asking for trust it has not earned.
+- [An AI job-generation platform, architected from nothing](https://ishaq-bhojani.github.io/#/case/ai-platform): A new AI product with no existing system to build on, needing secure multi-tenant identity and heavy file handling from day one — on a timeline that left no room to rebuild the foundation later.
+- [A learning platform carrying two live products](https://ishaq-bhojani.github.io/#/case/learning-platform): An LMS and an on-demand services app both had to run as real products, with search, media and notifications that could not block a user request — built by a team spread across several time zones.
+- [One monolith, split into modules teams could ship alone](https://ishaq-bhojani.github.io/#/case/micro-frontend): A high-traffic e-commerce front end where every change — however small — meant redeploying the entire application, and every team waited on every other team to be ready.
+
+## Products
+
+- [Modelith](https://github.com/ishaq-bhojani/Modelith) (LIVE): Open-source AI agent desktop, any provider, every action gated
+- LogiTrax (IN BUILD): Fleet tracking on commercial GPS hardware, with Urdu/RTL support
+- DHA City Medical Center (IN BUILD): Hospital management: registration, pharmacy, batch inventory
+- Athleon Arena (IN BUILD): Sports venue booking, payments and event-sourced live scoring
+- [FHU Resorts](https://www.fhuresorts.com/) (LIVE): Resort marketing and booking site, scroll-choreographed
+- Chelooms (IN BUILD): Marketplace platform, under wraps until launch
+- PlanKaro (IN BUILD): Consumer discovery app, under wraps until launch
+- Shikaku (COMING SOON): Offline logic-puzzle game, minimalist by design
+- Arrows (COMING SOON): Puzzle escape game, three mechanics prototyped
+- AO Skills (LIVE): AI-based job generation, front end and back end
+- AO LMS (LIVE): Learning management system, front end and back end
+- ECOM MFE (LIVE): Micro-frontend modules for an e-commerce site
+- PMO Tracker (LIVE): Jira/Trello-like project and resource management
+- NPM Project Check (LIVE): Plugin validating dependencies against a config
+- UI Template Generator (LIVE): Generates whole projects from user input
+- Recommendations Admin (LIVE): Admin panel configuring an ML server
+- Customer Admin (LIVE): Admin panel for call-centre users
+- Le Bijou (LIVE): Automated hotel and booking management
+- Matterz (LIVE): Property lawyers managing clients, deals, escrow
+- Team Reporter (LIVE): Employers viewing activity, distributing instructions
+- Islamic Mode (LIVE): Religious activity app, iOS and Android
+- Daily Momin (LIVE): Checklist app for tracking religious activities
+- AL Hajj (LIVE): Step-by-step guide app for pilgrims
+
+## Writing
+
+- [Google Searching Hacks](https://www.genetechsolutions.com/blog/google-is-genius-we-should-be-too/): Tips and tricks for advanced Google searches — operators most developers never learn, and the ones worth memorising. (GENETECH SOLUTIONS, 2023)
+
+## Teaching
+
+- [@IshaqBhojani](https://www.youtube.com/@IshaqBhojani/playlists): Software Engineer & Trainer — 21 playlists on YouTube
+
+## Contact
+
+- [EMAIL](mailto:ishaqbhojani@gmail.com): ishaqbhojani@gmail.com
+- [LINKEDIN](https://www.linkedin.com/in/ishaqbhojani/): /in/ishaqbhojani
+- [GITHUB](https://github.com/ishaq-bhojani): /ishaq-bhojani
+- [YOUTUBE](https://www.youtube.com/@IshaqBhojani): @IshaqBhojani
+- LOCATION: Karachi, Pakistan. Remote by default, and open to relocating for the right role.
+- NOTICE: Two months from signing.
+- WORK AUTHORISATION: Pakistani national — a role outside Pakistan would need visa sponsorship.
