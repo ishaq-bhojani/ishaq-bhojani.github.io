@@ -5,8 +5,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
     <title>Ishaq Bhojani — Software Architect &amp; Team Lead</title>
     <meta name="description" content="Software Architect and team lead in Karachi. Twelve years, twenty-three products, and a team of five I lead today." />
-    <meta name="theme-color" content="#04050a" />
-    
+    <!-- Both themes declared, so the browser chrome matches whichever is live
+         before any script runs. The inline script below overrides this to the
+         stored choice when the visitor has made one. -->
+    <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#0e0618" />
+    <meta name="theme-color" media="(prefers-color-scheme: light)" content="#f8f7f4" />
+
+    <!--
+      Theme, resolved before first paint.
+
+      This is inline and synchronous on purpose: any deferred or module script
+      runs after the first paint, so the page would flash the wrong ground for a
+      frame on every load. Reading localStorage and stamping data-theme here
+      means the very first painted pixel is already correct.
+
+      Kept tiny and self-contained — it must never be able to throw and block
+      the document, hence the try/catch around storage, which is unavailable in
+      some privacy modes.
+    -->
+    <script>
+      (function () {
+        try {
+          var stored = localStorage.getItem('ib-theme');
+          if (stored === 'light' || stored === 'dark') {
+            document.documentElement.setAttribute('data-theme', stored);
+            var meta = document.querySelector('meta[name="theme-color"]');
+            if (meta) meta.setAttribute('content', stored === 'light' ? '#f8f7f4' : '#0e0618');
+          }
+        } catch (e) {
+          /* No storage: fall through to prefers-color-scheme. */
+        }
+      })();
+    </script>
+
     <!-- Favicons -->
     <link rel="icon" href="/favicon.ico" />
     <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
@@ -32,8 +63,8 @@
     <meta property="twitter:title" content="Ishaq Bhojani — Software Architect &amp; Team Lead" />
     <meta property="twitter:description" content="I design the architecture, then lead the team that ships it. Twelve years, twenty-three products, a team of five." />
     <meta property="twitter:image" content="https://ishaq-bhojani.github.io/avatar.png?v=1" />
-    <script type="module" crossorigin src="/assets/index-9ff1doj-.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-Cf8-dkDP.css">
+    <script type="module" crossorigin src="/assets/index-Bj27sRUj.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-B9tCcAf4.css">
   <link rel="manifest" href="/manifest.webmanifest"><script id="vite-plugin-pwa:register-sw" src="/registerSW.js"></script></head>
   <body>
     <div id="root"></div>
