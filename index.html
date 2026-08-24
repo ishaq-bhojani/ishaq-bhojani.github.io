@@ -29,8 +29,12 @@
           var stored = localStorage.getItem('ib-theme');
           if (stored === 'light' || stored === 'dark') {
             document.documentElement.setAttribute('data-theme', stored);
-            var meta = document.querySelector('meta[name="theme-color"]');
-            if (meta) meta.setAttribute('content', stored === 'light' ? '#f8f7f4' : '#0e0618');
+            /* Both theme-color metas, not just the first: the browser reads
+               whichever one's media query matches the OS, so a pinned theme
+               that disagrees with the OS lives in the second tag. */
+            var metas = document.querySelectorAll('meta[name="theme-color"]');
+            var ground = stored === 'light' ? '#f8f7f4' : '#0e0618';
+            for (var i = 0; i < metas.length; i++) metas[i].setAttribute('content', ground);
           }
         } catch (e) {
           /* No storage: fall through to prefers-color-scheme. */
@@ -63,8 +67,9 @@
     <meta property="twitter:title" content="Ishaq Bhojani — Software Architect &amp; Team Lead" />
     <meta property="twitter:description" content="I design the architecture, then lead the team that ships it. Twelve years, twenty-three products, a team of five." />
     <meta property="twitter:image" content="https://ishaq-bhojani.github.io/avatar.png?v=1" />
-    <script type="module" crossorigin src="/assets/index-DKTTr_b7.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-BkJb_bZd.css">
+    <script type="module" crossorigin src="/assets/index-DNlDzxQl.js"></script>
+    <link rel="modulepreload" crossorigin href="/assets/vendor-BW2mufTb.js">
+    <link rel="stylesheet" crossorigin href="/assets/index-tDT1VLIj.css">
   <link rel="manifest" href="/manifest.webmanifest"><script id="vite-plugin-pwa:register-sw" src="/registerSW.js"></script></head>
   <body>
     <div id="root"></div>
